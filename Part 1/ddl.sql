@@ -9,7 +9,7 @@ CREATE SCHEMA employees;
 SET SEARCH_PATH = employees, public;
 ALTER USER CURRENT_USER SET SEARCH_PATH = employees, public;
 
-CREATE TABLE developer
+CREATE TABLE developers
 (
     id                 uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
     firstname          varchar(100) NOT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE technologies
     name_en varchar(20) NOT NULL UNIQUE
 );
 
-ALTER TABLE developer
+ALTER TABLE developers
     ADD FOREIGN KEY (main_technology_id) REFERENCES technologies (id);
 
 CREATE TABLE developer_technology
@@ -39,7 +39,7 @@ CREATE TABLE developer_technology
     developer_id  uuid,
     technology_id uuid,
     PRIMARY KEY (developer_id, technology_id),
-    FOREIGN KEY (developer_id) REFERENCES developer (id),
+    FOREIGN KEY (developer_id) REFERENCES developers (id),
     FOREIGN KEY (technology_id) REFERENCES technologies (id)
 );
 
@@ -49,7 +49,7 @@ CREATE TABLE enterprises
     name varchar(10) UNIQUE NOT NULL
 );
 
-ALTER TABLE developer
+ALTER TABLE developers
     ADD FOREIGN KEY (enterprise_id) REFERENCES enterprises (id);
 
 

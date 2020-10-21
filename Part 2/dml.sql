@@ -4,14 +4,10 @@ DO
 $$
     DECLARE
         john   uuid;
-        alex   uuid;
-        newbie uuid;
     BEGIN
-        SELECT id FROM developer WHERE firstname = 'John' AND lastname = 'DOE' INTO john;
-        SELECT id FROM developer WHERE firstname = 'Alex' AND lastname = 'ROSS' INTO alex;
-        SELECT id FROM developer WHERE firstname = 'New' AND lastname = 'BIE' INTO newbie;
+        SELECT id FROM developers WHERE firstname = 'John' AND lastname = 'DOE' INTO john;
 
-        INSERT INTO tech_lead(tech_lead_id, developer_id) VALUES (john, alex);
-        INSERT INTO tech_lead(tech_lead_id, developer_id) VALUES (john, newbie);
+        UPDATE developers SET tech_lead_id = john WHERE firstname = 'Alex' AND lastname = 'ROSS';
+        UPDATE developers SET tech_lead_id = john WHERE firstname = 'New' AND lastname = 'BIE';
     END;
 $$;

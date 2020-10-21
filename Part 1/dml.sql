@@ -24,7 +24,7 @@ $$
 
 
         -- DEV: JOHN DOE
-        INSERT INTO developer(firstname, lastname, birthday, join_date, matricule, enterprise_id, main_technology_id)
+        INSERT INTO developers(firstname, lastname, birthday, join_date, matricule, enterprise_id, main_technology_id)
             VALUES ('John', 'DOE', '1995-01-01', '2010-01-01', generate_matricule(), enterprise, cpp) RETURNING id INTO dev;
 
         INSERT INTO developer_technology(developer_id, technology_id) VALUES (dev, react);
@@ -32,7 +32,7 @@ $$
 
 
         -- DEV: ALEX ROSS
-        INSERT INTO developer(firstname, lastname, birthday, join_date, matricule, enterprise_id, main_technology_id)
+        INSERT INTO developers(firstname, lastname, birthday, join_date, matricule, enterprise_id, main_technology_id)
             VALUES ('Alex', 'ROSS', '1995-01-01', '2010-01-01', generate_matricule(), enterprise, cpp) RETURNING id INTO dev;
 
         INSERT INTO developer_technology(developer_id, technology_id) VALUES (dev, java);
@@ -41,7 +41,7 @@ $$
 
 
         -- DEV: NEW BIE
-        INSERT INTO developer(firstname, lastname, birthday, join_date, matricule, enterprise_id, main_technology_id)
+        INSERT INTO developers(firstname, lastname, birthday, join_date, matricule, enterprise_id, main_technology_id)
             VALUES ('New', 'BIE', '1995-01-01', '2010-01-01', generate_matricule(), enterprise, cpp);
 
     END;
