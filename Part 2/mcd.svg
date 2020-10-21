@@ -2,7 +2,7 @@
     <style>
         text {
             fill: #333;
-            font-family: Arial, sans-serif;
+            font-family: Roboto, Arial, sans-serif;
         }
 
         .node line {
@@ -44,7 +44,7 @@
     </g>
     <g class="node" transform="translate(235, 0)">
         <rect class="background" x="-5" rx="5" width="180" height="134"></rect><text text-anchor="start" x="0"
-            y="17">developer</text>
+            y="17">developers</text>
         <g transform="translate(0, 29)">
             <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
                 y="17">matricule [id naturel]</text><text fill="white" text-anchor="start" x="0"
@@ -81,7 +81,7 @@
     </g>
     <g class="node" transform="translate(465, 359)">
         <rect class="background" x="-5" rx="5" width="180" height="54"></rect><text text-anchor="start" x="0"
-            y="17">enterprise</text>
+            y="17">enterprises</text>
         <g transform="translate(0, 29)">
             <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
                 y="17">name [id naturel]</text>
