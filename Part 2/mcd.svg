@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420px" height="483px" viewBox="-5 -5 420 483">
+<svg xmlns="http://www.w3.org/2000/svg" width="650px" height="463px" viewBox="-5 -5 650 463">
  <style>text {
     fill: #333;
     font-family: Arial, sans-serif;
@@ -26,71 +26,85 @@
  <g>
   <title>Layer 1</title>
   <g id="svg_1">
-   <line id="svg_2" y2="254" x2="90" y1="0" x1="90" class="link"/>
-   <text id="svg_3" y="214" x="100">0,n</text>
+   <line id="svg_2" y2="234" x2="90" y1="0" x1="320" class="link"/>
+   <text id="svg_3" y="194" x="139.31624">0,n</text>
   </g>
   <g id="svg_4">
-   <line id="svg_5" y2="379" x2="90" y1="254" x1="90" class="link"/>
-   <text id="svg_6" y="339" x="100">0,n</text>
+   <line id="svg_5" y2="359" x2="320" y1="234" x1="90" class="link"/>
+   <text id="svg_6" y="319" x="256.4">0,n</text>
   </g>
   <g id="svg_7">
-   <line id="svg_8" y2="254" x2="320" y1="0" x1="90" class="link"/>
-   <text id="svg_9" y="214" x="293.77953">0,n</text>
+   <line id="svg_8" y2="234" x2="320" y1="0" x1="320" class="link"/>
+   <text id="svg_9" y="194" x="330">1</text>
   </g>
   <g id="svg_10">
-   <line id="svg_11" y2="379" x2="320" y1="254" x1="320" class="link"/>
-   <text id="svg_12" y="339" x="330">1</text>
+   <line id="svg_11" y2="359" x2="320" y1="234" x1="320" class="link"/>
+   <text id="svg_12" y="319" x="330">1</text>
   </g>
-  <g id="svg_13" class="node">
-   <rect id="svg_14" y="0" height="154" width="180" rx="5" x="0" class="background"/>
-   <text id="svg_15" x="5" y="17">developer</text>
-   <g id="svg_16">
-    <line id="svg_17" y2="26" y1="26" x2="180" x1="0" stroke-width="2"/>
-    <text id="svg_18" x="5" y="46" fill="white">firstname</text>
-    <text id="svg_19" x="5" y="66" fill="white">lastname</text>
-    <text id="svg_20" x="5" y="86" fill="white">birthday</text>
-    <text id="svg_21" x="5" y="106" fill="white">join_date</text>
-    <text id="svg_22" x="5" y="126" fill="white">matricule</text>
-    <text id="svg_23" x="5" y="146" fill="white">main_technology</text>
+  <g id="svg_13">
+   <line id="svg_14" y2="234" x2="550" y1="0" x1="320" class="link"/>
+   <text id="svg_15" y="194" x="520.68376">0,n</text>
+  </g>
+  <g id="svg_16">
+   <line id="svg_17" y2="359" x2="550" y1="234" x1="550" class="link"/>
+   <text id="svg_18" y="319" x="560">1</text>
+  </g>
+  <g id="svg_19" class="node">
+   <rect id="svg_20" y="0" height="134" width="180" rx="5" x="230" class="background"/>
+   <text id="svg_21" x="235" y="17">developer</text>
+   <g id="svg_22">
+    <line id="svg_23" y2="26" y1="26" x2="410" x1="230" stroke-width="2"/>
+    <text id="svg_24" x="235" y="46" fill="white">matricule [id naturel]</text>
+    <text id="svg_25" x="235" y="66" fill="white">firstname</text>
+    <text id="svg_26" x="235" y="86" fill="white">lastname</text>
+    <text id="svg_27" x="235" y="106" fill="white">birthday</text>
+    <text id="svg_28" x="235" y="126" fill="white">join_date</text>
    </g>
-   <rect id="svg_24" y="0" height="154" width="180" rx="5" x="0" class="border"/>
+   <rect id="svg_29" y="0" height="134" width="180" rx="5" x="230" class="border"/>
   </g>
-  <g id="svg_25" class="node">
-   <rect id="svg_26" y="254" height="25" width="180" rx="5" x="0" class="background"/>
-   <text id="svg_27" x="5" y="271">learn</text>
-   <rect id="svg_28" y="254" height="25" width="180" rx="5" x="0" class="border"/>
+  <g id="svg_30" class="node">
+   <rect id="svg_31" y="234" height="25" width="180" rx="5" x="0" class="background"/>
+   <text id="svg_32" x="5" y="251">learn</text>
+   <rect id="svg_33" y="234" height="25" width="180" rx="5" x="0" class="border"/>
   </g>
-  <g id="svg_29" class="node">
-   <rect id="svg_30" y="254" height="25" width="180" rx="5" x="230" class="background"/>
-   <text id="svg_31" x="235" y="271">in</text>
-   <rect id="svg_32" y="254" height="25" width="180" rx="5" x="230" class="border"/>
+  <g id="svg_34" class="node">
+   <rect id="svg_35" y="234" height="25" width="180" rx="5" x="230" class="background"/>
+   <text id="svg_36" x="235" y="251">is main technology</text>
+   <rect id="svg_37" y="234" height="25" width="180" rx="5" x="230" class="border"/>
   </g>
-  <g id="svg_33" class="node">
-   <rect id="svg_34" y="379" height="94" width="180" rx="5" x="0" class="background"/>
-   <text id="svg_35" x="5" y="396">technologies</text>
-   <g id="svg_36">
-    <line id="svg_37" y2="405" y1="405" x2="180" x1="0" stroke-width="2"/>
-    <text id="svg_38" x="5" y="425" fill="white">code</text>
-    <text id="svg_39" x="5" y="445" fill="white">name_fr</text>
-    <text id="svg_40" x="5" y="465" fill="white">name_en</text>
-   </g>
-   <rect id="svg_41" y="379" height="94" width="180" rx="5" x="0" class="border"/>
+  <g id="svg_38" class="node">
+   <rect id="svg_39" y="234" height="25" width="180" rx="5" x="460" class="background"/>
+   <text id="svg_40" x="465" y="251">in</text>
+   <rect id="svg_41" y="234" height="25" width="180" rx="5" x="460" class="border"/>
   </g>
   <g id="svg_42" class="node">
-   <rect id="svg_43" y="379" height="54" width="180" rx="5" x="230" class="background"/>
-   <text id="svg_44" x="235" y="396">enterprise</text>
+   <rect id="svg_43" y="359" height="94" width="180" rx="5" x="230" class="background"/>
+   <text id="svg_44" x="235" y="376">technologies</text>
    <g id="svg_45">
-    <line id="svg_46" y2="405" y1="405" x2="410" x1="230" stroke-width="2"/>
-    <text id="svg_47" x="235" y="425" fill="white">name</text>
+    <line id="svg_46" y2="385" y1="385" x2="410" x1="230" stroke-width="2"/>
+    <text id="svg_47" x="235" y="405" fill="white">code [id naturel]</text>
+    <text id="svg_48" x="235" y="425" fill="white">name_fr</text>
+    <text id="svg_51" x="235" y="445" fill="white">name_en</text>
    </g>
-   <rect id="svg_48" y="379" height="54" width="180" rx="5" x="230" class="border"/>
+   <rect id="svg_54" y="359" height="94" width="180" rx="5" x="230" class="border"/>
   </g>
-  <rect stroke="#000" id="svg_49" height="75" width="138" y="34.95313" x="260.5" stroke-width="1.5" fill="#fff"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_50" y="78.45313" x="275.96875" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">is techlead of</text>
-  <line stroke-linecap="null" stroke-linejoin="null" id="svg_52" y2="46.95313" x2="180.44377" y1="46.95313" x1="260.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
-  <line stroke-linecap="null" stroke-linejoin="null" id="svg_53" y2="90.95313" x2="259.50625" y1="90.95313" x1="179.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
-  <path transform="rotate(-90 189.1024932861328,92.90523529052733) " id="svg_55" d="m173.6025,103.90523l15.5,-22l15.5,22l-30.99999,0z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_56" y="106.95313" x="221.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">0,n</text>
-  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_58" y="43.95313" x="211.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">0,1</text>
+  <g id="svg_57" class="node">
+   <rect id="svg_59" y="359" height="54" width="180" rx="5" x="460" class="background"/>
+   <text id="svg_60" x="465" y="376">enterprise</text>
+   <g id="svg_61">
+    <line id="svg_62" y2="385" y1="385" x2="640" x1="460" stroke-width="2"/>
+    <text id="svg_63" x="465" y="405" fill="white">name [id naturel]</text>
+   </g>
+   <rect id="svg_64" y="359" height="54" width="180" rx="5" x="460" class="border"/>
+  </g>
+  <g id="svg_65">
+   <rect fill="#fff" stroke-width="1.5" x="490.5" y="20.95313" width="138" height="75" id="svg_49" stroke="#000"/>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="505.96875" y="64.45313" id="svg_50" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">is techlead of</text>
+   <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="490.5" y1="32.95313" x2="410.44377" y2="32.95313" id="svg_52" stroke-linejoin="null" stroke-linecap="null"/>
+   <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="409.5" y1="76.95313" x2="489.50625" y2="76.95313" id="svg_53" stroke-linejoin="null" stroke-linecap="null"/>
+   <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" d="m403.6025,89.90523l15.5,-22l15.5,22l-30.99999,0l-0.00001,0z" id="svg_55" transform="rotate(-90 419.1024780273438,78.90523529052733) "/>
+   <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="451.5" y="92.95313" id="svg_56" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">0,n</text>
+   <text fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="441.5" y="29.95313" id="svg_58" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" stroke="#000">0,1</text>
+  </g>
  </g>
 </svg>
