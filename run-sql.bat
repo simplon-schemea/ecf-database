@@ -1,17 +1,16 @@
 @echo off
 
+set PARTS=1 2
+
+if [%1] neq [] set PARTS=%1
+
 cd %~dp0
 
-echo ========================================PART 1========================================
-echo;
-call :runsql 1
-
-echo;
-echo;
-
-echo ========================================PART 2========================================
-echo;
-call :runsql 2
+for %%p in (%PARTS%) do (
+   call :runsql %%p
+   echo;
+   echo;
+)
 
 goto :eof
 
@@ -19,6 +18,8 @@ goto :eof
 setlocal
 set "FOLDER=Part %1" 
 
+echo ========================================PART %1========================================
+echo;
 echo ========Executing DDL============
 echo;
 psql -h localhost -p 5432 -U postgres -f "%FOLDER%/ddl.sql" > nul
