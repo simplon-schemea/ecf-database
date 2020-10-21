@@ -13,6 +13,5 @@ $$
 
         INSERT INTO tech_lead(tech_lead_id, developer_id) VALUES (john, alex);
         INSERT INTO tech_lead(tech_lead_id, developer_id) VALUES (john, newbie);
-        INSERT INTO tech_lead(tech_lead_id, developer_id) VALUES (alex, newbie);
     END;
 $$;
