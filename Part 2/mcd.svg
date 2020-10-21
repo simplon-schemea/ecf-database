@@ -5,106 +5,147 @@
             font-family: Roboto, Arial, sans-serif;
         }
 
+        text {
+            font-size: 18px;
+        }
+
+        .node text {
+            font-size: unset;
+        }
+
         .node line {
             stroke: #ccc;
         }
 
-        .node .background {
+        .node .background, .tech-lead rect, .tech-lead path {
             fill: #f0f0f0;
         }
 
-        .node .border {
+        .node .border, .tech-lead .border {
             fill: transparent;
             stroke: #888;
             stroke-width: 2;
         }
 
-        .link {
+        .link, .tech-lead line, .tech-lead path {
             stroke: #888;
             stroke-width: 2;
         }
     </style>
     <g transform="translate(320, 134)">
-        <line class="link" x1="0" y1="0" x2="-230" y2="100"></line><text text-anchor="end" x="-148" y="60">0,n</text>
+        <line class="link" x1="0" y1="0" x2="-230" y2="100"></line>
+        <text text-anchor="end" x="-148" y="60">0,n</text>
     </g>
     <g transform="translate(90, 259)">
-        <line class="link" x1="0" y1="0" x2="230" y2="100"></line><text text-anchor="start" x="148" y="60">0,n</text>
+        <line class="link" x1="0" y1="0" x2="230" y2="100"></line>
+        <text text-anchor="start" x="148" y="60">0,n</text>
     </g>
     <g transform="translate(320, 134)">
-        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">0,n</text>
+        <line class="link" x1="0" y1="0" x2="0" y2="100"></line>
+        <text text-anchor="start" x="10" y="60">0,n</text>
     </g>
     <g transform="translate(320, 259)">
-        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">1</text>
+        <line class="link" x1="0" y1="0" x2="0" y2="100"></line>
+        <text text-anchor="start" x="10" y="60">1</text>
     </g>
     <g transform="translate(320, 134)">
-        <line class="link" x1="0" y1="0" x2="230" y2="100"></line><text text-anchor="start" x="148" y="60">0,n</text>
+        <line class="link" x1="0" y1="0" x2="230" y2="100"></line>
+        <text text-anchor="start" x="148" y="60">0,n</text>
     </g>
     <g transform="translate(550, 259)">
-        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">1</text>
+        <line class="link" x1="0" y1="0" x2="0" y2="100"></line>
+        <text text-anchor="start" x="10" y="60">1</text>
     </g>
     <g class="node" transform="translate(235, 0)">
-        <rect class="background" x="-5" rx="5" width="180" height="134"></rect><text text-anchor="start" x="0"
-            y="17">developers</text>
+        <rect class="background" x="-5" rx="5" width="180" height="134"></rect>
+        <text text-anchor="start" x="0"
+              y="17">developers
+        </text>
         <g transform="translate(0, 29)">
-            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
-                y="17">matricule [id naturel]</text><text fill="white" text-anchor="start" x="0"
-                y="37">firstname</text><text fill="white" text-anchor="start" x="0" y="57">lastname</text><text
-                fill="white" text-anchor="start" x="0" y="77">birthday</text><text fill="white" text-anchor="start"
-                x="0" y="97">join_date</text>
+            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line>
+            <text fill="white" text-anchor="start" x="0"
+                  y="17">matricule [id naturel]
+            </text>
+            <text fill="white" text-anchor="start" x="0"
+                  y="37">firstname
+            </text>
+            <text fill="white" text-anchor="start" x="0" y="57">lastname</text>
+            <text
+                    fill="white" text-anchor="start" x="0" y="77">birthday
+            </text>
+            <text fill="white" text-anchor="start"
+                  x="0" y="97">join_date
+            </text>
         </g>
         <rect class="border" x="-5" rx="5" width="180" height="134"></rect>
     </g>
     <g class="node" transform="translate(5, 234)">
-        <rect class="background" x="-5" rx="5" width="180" height="25"></rect><text text-anchor="middle" x="85"
-            y="17">learn</text>
+        <rect class="background" x="-5" rx="5" width="180" height="25"></rect>
+        <text text-anchor="middle" x="85"
+              y="17">learn
+        </text>
         <rect class="border" x="-5" rx="5" width="180" height="25"></rect>
     </g>
     <g class="node" transform="translate(235, 234)">
-        <rect class="background" x="-5" rx="5" width="180" height="25"></rect><text text-anchor="middle" x="85"
-            y="17">is main technology</text>
+        <rect class="background" x="-5" rx="5" width="180" height="25"></rect>
+        <text text-anchor="middle" x="85"
+              y="17">is main technology
+        </text>
         <rect class="border" x="-5" rx="5" width="180" height="25"></rect>
     </g>
     <g class="node" transform="translate(465, 234)">
-        <rect class="background" x="-5" rx="5" width="180" height="25"></rect><text text-anchor="middle" x="85"
-            y="17">in</text>
+        <rect class="background" x="-5" rx="5" width="180" height="25"></rect>
+        <text text-anchor="middle" x="85"
+              y="17">in
+        </text>
         <rect class="border" x="-5" rx="5" width="180" height="25"></rect>
     </g>
     <g class="node" transform="translate(235, 359)">
-        <rect class="background" x="-5" rx="5" width="180" height="94"></rect><text text-anchor="start" x="0"
-            y="17">technologies</text>
+        <rect class="background" x="-5" rx="5" width="180" height="94"></rect>
+        <text text-anchor="start" x="0"
+              y="17">technologies
+        </text>
         <g transform="translate(0, 29)">
-            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
-                y="17">code [id naturel]</text><text fill="white" text-anchor="start" x="0" y="37">name_fr</text><text
-                fill="white" text-anchor="start" x="0" y="57">name_en</text>
+            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line>
+            <text fill="white" text-anchor="start" x="0"
+                  y="17">code [id naturel]
+            </text>
+            <text fill="white" text-anchor="start" x="0" y="37">name_fr</text>
+            <text
+                    fill="white" text-anchor="start" x="0" y="57">name_en
+            </text>
         </g>
         <rect class="border" x="-5" rx="5" width="180" height="94"></rect>
     </g>
     <g class="node" transform="translate(465, 359)">
-        <rect class="background" x="-5" rx="5" width="180" height="54"></rect><text text-anchor="start" x="0"
-            y="17">enterprises</text>
+        <rect class="background" x="-5" rx="5" width="180" height="54"></rect>
+        <text text-anchor="start" x="0"
+              y="17">enterprises
+        </text>
         <g transform="translate(0, 29)">
-            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
-                y="17">name [id naturel]</text>
+            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line>
+            <text fill="white" text-anchor="start" x="0"
+                  y="17">name [id naturel]
+            </text>
         </g>
         <rect class="border" x="-5" rx="5" width="180" height="54"></rect>
     </g>
-    <g id="svg_65">
-        <rect fill="#fff" stroke-width="1.5" x="490.5" y="20.95313" width="138" height="75" id="svg_49" stroke="#000" />
-        <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="505.96875"
-            y="64.45313" id="svg_50" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start"
-            xml:space="preserve">is tech lead of</text>
-        <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="490.5"
-            y1="32.95313" x2="410.44377" y2="32.95313" id="svg_52" stroke-linejoin="null" stroke-linecap="null" />
-        <line fill="none" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" x1="409.5"
-            y1="76.95313" x2="489.50625" y2="76.95313" id="svg_53" stroke-linejoin="null" stroke-linecap="null" />
-        <path fill="#fff" stroke="#000" stroke-width="1.5" stroke-opacity="null" fill-opacity="null"
-            d="m403.6025,89.90523l15.5,-22l15.5,22l-30.99999,0l-0.00001,0z" id="svg_55"
-            transform="rotate(-90 419.1024780273438,78.90523529052733) " />
-        <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="451.5"
-            y="92.95313" id="svg_56" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start"
-            xml:space="preserve">0,n</text>
-        <text fill="#000000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="441.5" y="29.95313"
-            id="svg_58" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="start"
-            xml:space="preserve" stroke="#000">0,1</text>
+    <g class="tech-lead" id="svg_65">
+        <rect x="490.5" y="20.95313" width="138" height="75" id="svg_49"/>
+        <text stroke-width="0" x="505.96875"
+              y="64.45313" id="svg_50" font-size="18" text-anchor="start"
+              xml:space="preserve">is tech lead of</text>
+        <line x1="490.5"
+              y1="32.95313" x2="410.44377" y2="32.95313" id="svg_52"/>
+        <line x1="409.5"
+              y1="85" x2="489.50625" y2="85" id="svg_53"/>
+        <path d="m 409.5 85 l 20 -10 l 0 20 l -20 -10 " />
+        <text stroke-width="0" x="438"
+              y="105" id="svg_56" font-size="18" text-anchor="start"
+              xml:space="preserve">0,n</text>
+        <text stroke-width="0" x="438" y="25"
+              id="svg_58" font-size="18" text-anchor="start"
+              xml:space="preserve">0,1</text>
+        <rect class="border" rx="5" x="490.5" y="20.95313" width="138" height="75"/>
     </g>
 </svg>

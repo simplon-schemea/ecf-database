@@ -5,6 +5,14 @@
             font-family: Roboto, Arial, sans-serif;
         }
 
+        text {
+            font-size: 18px;
+        }
+
+        .node text {
+            font-size: unset;
+        }
+
         .node line {
             stroke: #ccc;
         }
