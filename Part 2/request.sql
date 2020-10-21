@@ -1,3 +1,6 @@
 -- PART 2: REQUEST
 
-SELECT DISTINCT dev.* from tech_lead tl LEFT JOIN developer dev ON dev.id = tl.tech_lead_id;
+SELECT lastname, firstname, count(*)
+FROM tech_lead tl
+         LEFT JOIN developer dev ON dev.id = tl.tech_lead_id
+GROUP BY tech_lead_id, firstname, lastname;
