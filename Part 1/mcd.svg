@@ -1,21 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="650px" height="463px" viewBox="-5 -5 650 463"><style>
-  text {
-    fill: #333;
-    font-family: Arial, sans-serif;
-  }
-  .node line {
-    stroke: #ccc;
-  }
-  .node .background {
-    fill: #f0f0f0;
-  }
-  .node .border {
-    fill: transparent;  
-    stroke: #888;
-    stroke-width: 2;
-  }
-  .link {
-    stroke: #888;
-    stroke-width: 2;
-  }
-</style><g transform="translate(320, 0)"><line class="link" x1="0" y1="0" x2="-230" y2="234"></line><text x="-180.6837606837607" y="194">0,n</text></g><g transform="translate(90, 234)"><line class="link" x1="0" y1="0" x2="230" y2="125"></line><text x="166.4" y="85">0,n</text></g><g transform="translate(320, 0)"><line class="link" x1="0" y1="0" x2="0" y2="234"></line><text x="10" y="194">1</text></g><g transform="translate(320, 234)"><line class="link" x1="0" y1="0" x2="0" y2="125"></line><text x="10" y="85">1</text></g><g transform="translate(320, 0)"><line class="link" x1="0" y1="0" x2="230" y2="234"></line><text x="200.6837606837607" y="194">0,n</text></g><g transform="translate(550, 234)"><line class="link" x1="0" y1="0" x2="0" y2="125"></line><text x="10" y="85">1</text></g><g class="node" transform="translate(235, 0)"><rect class="background" x="-5" rx="5" width="180" height="134"></rect><text y="17">developer</text><g transform="translate(0, 29)"><line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" y="17">matricule [id naturel]</text><text fill="white" y="37">firstname</text><text fill="white" y="57">lastname</text><text fill="white" y="77">birthday</text><text fill="white" y="97">join_date</text></g><rect class="border" x="-5" rx="5" width="180" height="134"></rect></g><g class="node" transform="translate(5, 234)"><rect class="background" x="-5" rx="5" width="180" height="25"></rect><text y="17">learn</text><rect class="border" x="-5" rx="5" width="180" height="25"></rect></g><g class="node" transform="translate(235, 234)"><rect class="background" x="-5" rx="5" width="180" height="25"></rect><text y="17">is main technology</text><rect class="border" x="-5" rx="5" width="180" height="25"></rect></g><g class="node" transform="translate(465, 234)"><rect class="background" x="-5" rx="5" width="180" height="25"></rect><text y="17">in</text><rect class="border" x="-5" rx="5" width="180" height="25"></rect></g><g class="node" transform="translate(235, 359)"><rect class="background" x="-5" rx="5" width="180" height="94"></rect><text y="17">technologies</text><g transform="translate(0, 29)"><line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" y="17">code [id naturel]</text><text fill="white" y="37">name_fr</text><text fill="white" y="57">name_en</text></g><rect class="border" x="-5" rx="5" width="180" height="94"></rect></g><g class="node" transform="translate(465, 359)"><rect class="background" x="-5" rx="5" width="180" height="54"></rect><text y="17">enterprise</text><g transform="translate(0, 29)"><line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" y="17">name [id naturel]</text></g><rect class="border" x="-5" rx="5" width="180" height="54"></rect></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="650px" height="463px" viewBox="-5 -5 650 463">
+    <style>
+        text {
+            fill: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        .node line {
+            stroke: #ccc;
+        }
+
+        .node .background {
+            fill: #f0f0f0;
+        }
+
+        .node .border {
+            fill: transparent;
+            stroke: #888;
+            stroke-width: 2;
+        }
+
+        .link {
+            stroke: #888;
+            stroke-width: 2;
+        }
+    </style>
+    <g transform="translate(320, 134)">
+        <line class="link" x1="0" y1="0" x2="-230" y2="100"></line><text text-anchor="end" x="-148" y="60">0,n</text>
+    </g>
+    <g transform="translate(90, 259)">
+        <line class="link" x1="0" y1="0" x2="230" y2="100"></line><text text-anchor="start" x="148" y="60">0,n</text>
+    </g>
+    <g transform="translate(320, 134)">
+        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">1</text>
+    </g>
+    <g transform="translate(320, 259)">
+        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">1</text>
+    </g>
+    <g transform="translate(320, 134)">
+        <line class="link" x1="0" y1="0" x2="230" y2="100"></line><text text-anchor="start" x="148" y="60">0,n</text>
+    </g>
+    <g transform="translate(550, 259)">
+        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">1</text>
+    </g>
+    <g class="node" transform="translate(235, 0)">
+        <rect class="background" x="-5" rx="5" width="180" height="134"></rect><text text-anchor="start" x="0"
+            y="17">developer</text>
+        <g transform="translate(0, 29)">
+            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
+                y="17">matricule [id naturel]</text><text fill="white" text-anchor="start" x="0"
+                y="37">firstname</text><text fill="white" text-anchor="start" x="0" y="57">lastname</text><text
+                fill="white" text-anchor="start" x="0" y="77">birthday</text><text fill="white" text-anchor="start"
+                x="0" y="97">join_date</text>
+        </g>
+        <rect class="border" x="-5" rx="5" width="180" height="134"></rect>
+    </g>
+    <g class="node" transform="translate(5, 234)">
+        <rect class="background" x="-5" rx="5" width="180" height="25"></rect><text text-anchor="middle" x="85"
+            y="17">learn</text>
+        <rect class="border" x="-5" rx="5" width="180" height="25"></rect>
+    </g>
+    <g class="node" transform="translate(235, 234)">
+        <rect class="background" x="-5" rx="5" width="180" height="25"></rect><text text-anchor="middle" x="85"
+            y="17">is main technology</text>
+        <rect class="border" x="-5" rx="5" width="180" height="25"></rect>
+    </g>
+    <g class="node" transform="translate(465, 234)">
+        <rect class="background" x="-5" rx="5" width="180" height="25"></rect><text text-anchor="middle" x="85"
+            y="17">in</text>
+        <rect class="border" x="-5" rx="5" width="180" height="25"></rect>
+    </g>
+    <g class="node" transform="translate(235, 359)">
+        <rect class="background" x="-5" rx="5" width="180" height="94"></rect><text text-anchor="start" x="0"
+            y="17">technologies</text>
+        <g transform="translate(0, 29)">
+            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
+                y="17">code [id naturel]</text><text fill="white" text-anchor="start" x="0" y="37">name_fr</text><text
+                fill="white" text-anchor="start" x="0" y="57">name_en</text>
+        </g>
+        <rect class="border" x="-5" rx="5" width="180" height="94"></rect>
+    </g>
+    <g class="node" transform="translate(465, 359)">
+        <rect class="background" x="-5" rx="5" width="180" height="54"></rect><text text-anchor="start" x="0"
+            y="17">enterprise</text>
+        <g transform="translate(0, 29)">
+            <line stroke-width="2" x1="-5" x2="175" y1="-3" y2="-3"></line><text fill="white" text-anchor="start" x="0"
+                y="17">name [id naturel]</text>
+        </g>
+        <rect class="border" x="-5" rx="5" width="180" height="54"></rect>
+    </g>
+</svg>
