@@ -8,10 +8,10 @@ $$
         angular    uuid;
         react      uuid;
         java       uuid;
-        dev        uuid;
         csharp     uuid;
+        dev        uuid;
         enterprise uuid;
-        
+
     BEGIN
         INSERT INTO enterprises(name) VALUES ('Lorem') RETURNING id INTO enterprise;
 
