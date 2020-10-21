@@ -31,7 +31,7 @@
         <line class="link" x1="0" y1="0" x2="230" y2="100"></line><text text-anchor="start" x="148" y="60">0,n</text>
     </g>
     <g transform="translate(320, 134)">
-        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">1</text>
+        <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">0,n</text>
     </g>
     <g transform="translate(320, 259)">
         <line class="link" x1="0" y1="0" x2="0" y2="100"></line><text text-anchor="start" x="10" y="60">1</text>
