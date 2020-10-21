@@ -23,12 +23,15 @@ CREATE TABLE developers
     UNIQUE (matricule)
 );
 
+CREATE SEQUENCE technology_code_sequence;
+
 CREATE TABLE technologies
 (
-    id      uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
-    code    varchar(15) NOT NULL UNIQUE,
+    id      uuid PRIMARY KEY     DEFAULT uuid_generate_v4(),
+    code    varchar(15) NOT NULL DEFAULT concat('CD_', lpad(nextval('technology_code_sequence')::text, 3, '0')),
+    name_en varchar(20) NOT NULL UNIQUE,
     name_fr varchar(20) NOT NULL UNIQUE,
-    name_en varchar(20) NOT NULL UNIQUE
+    UNIQUE (code)
 );
 
 ALTER TABLE developers

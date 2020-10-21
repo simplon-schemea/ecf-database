@@ -16,11 +16,11 @@ $$
         INSERT INTO enterprises(name) VALUES ('Lorem') RETURNING id INTO enterprise;
 
         -- TECHNOLOGIES
-        INSERT INTO technologies(code, name_fr, name_en) VALUES ('CD_CPP', 'C++', 'C++') RETURNING id INTO cpp;
-        INSERT INTO technologies(code, name_fr, name_en) VALUES ('CD_ANGULAR', 'Angular', 'Angular') RETURNING id INTO angular;
-        INSERT INTO technologies(code, name_fr, name_en) VALUES ('CD_REACT', 'React', 'React') RETURNING id INTO react;
-        INSERT INTO technologies(code, name_fr, name_en) VALUES ('CD_JAVA', 'Java', 'Java') RETURNING id INTO java;
-        INSERT INTO technologies(code, name_fr, name_en) VALUES ('CD_CSHARP', 'C#', 'C#') RETURNING id INTO csharp;
+        INSERT INTO technologies(name_en, name_fr) VALUES ('C++', 'C++') RETURNING id INTO cpp;
+        INSERT INTO technologies(name_en, name_fr) VALUES ('Angular', 'Angular') RETURNING id INTO angular;
+        INSERT INTO technologies(name_en, name_fr) VALUES ('React', 'React') RETURNING id INTO react;
+        INSERT INTO technologies(name_en, name_fr) VALUES ('Java', 'Java') RETURNING id INTO java;
+        INSERT INTO technologies(name_en, name_fr) VALUES ('C#', 'C#') RETURNING id INTO csharp;
 
 
         -- DEV: JOHN DOE
