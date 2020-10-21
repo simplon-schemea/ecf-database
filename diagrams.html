@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diagrams</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -24,10 +24,15 @@
 
         .title {
             width: 100%;
-            background-color: #bbb;
+            background-color: #dadada;
             text-align: center;
             padding: 5px 0;
-            margin: 10px 0;
+            margin: 20px 0;
+
+            color: #2b2b2b;
+
+            font-weight: bold;
+            font-size: 1.3em;
         }
 
         .part {
@@ -55,6 +60,7 @@
             justify-content: center;
             margin-bottom: 10px;
         }
+
         .diagram .legend div {
             background: #000a;
             color: white;
@@ -74,40 +80,40 @@
 </head>
 
 <body>
-    <main>
-        <div class="part">
-            <div class="title">PART 1</div>
-            <div class="diagram">
-                <div class="legend">
-                    <div>Modèle Conceptuelle de Données</div>
-                </div>
-                <img src="Part 1/mcd.svg" />
+<main>
+    <div class="part">
+        <div class="title">PART 1</div>
+        <div class="diagram">
+            <div class="legend">
+                <div>Modèle Conceptuelle de Données</div>
             </div>
-            <hr/>
-            <div class="diagram">
-                <div class="legend">
-                    <div>Modèle Physique de Données</div>
-                </div>
-                <img src="Part 1/mpd.png" />
-            </div>
+            <img src="Part 1/mcd.svg"/>
         </div>
-        <div class="part">
-            <div class="title">PART 2</div>
-            <div class="diagram">
-                <div class="legend">
-                    <div>Modèle Conceptuelle de Données</div>
-                </div>
-                <img src="Part 2/mcd.svg" />
+        <hr/>
+        <div class="diagram">
+            <div class="legend">
+                <div>Modèle Physique de Données</div>
             </div>
-            <hr/>
-            <div class="diagram">
-                <div class="legend">
-                    <div>Modèle Physique de Données</div>
-                </div>
-                <img src="Part 2/mpd.png" />
-            </div>
+            <img src="Part 1/mpd.png"/>
         </div>
-    </main>
+    </div>
+    <div class="part">
+        <div class="title">PART 2</div>
+        <div class="diagram">
+            <div class="legend">
+                <div>Modèle Conceptuelle de Données</div>
+            </div>
+            <img src="Part 2/mcd.svg"/>
+        </div>
+        <hr/>
+        <div class="diagram">
+            <div class="legend">
+                <div>Modèle Physique de Données</div>
+            </div>
+            <img src="Part 2/mpd.png"/>
+        </div>
+    </div>
+</main>
 </body>
 
 </html>
