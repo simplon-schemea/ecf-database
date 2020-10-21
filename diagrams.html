@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrams</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        main {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: stretch;
+
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        .title {
+            width: 100%;
+            background-color: #bbb;
+            text-align: center;
+            padding: 5px 0;
+            margin: 10px 0;
+        }
+
+        .part {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .diagram {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 30px;
+            margin: 10px 0;
+        }
+
+        .diagram .legend {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .diagram .legend div {
+            background: #000a;
+            color: white;
+            text-align: center;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="part">
+            <div class="title">PART 1</div>
+            <div class="diagram">
+                <img src="Part 1/mcd.svg" />
+                <div class="legend">
+                    <div>Modele Conceptuelle de Donnée</div>
+                </div>
+            </div>
+            <div class="diagram">
+                <img src="Part 1/mpd.png" />
+                <div class="legend">
+                    <div>Modele Physique de Donnée</div>
+                </div>
+            </div>
+        </div>
+        <div class="part">
+            <div class="title">PART 2</div>
+            <div class="diagram">
+                <img src="Part 2/mcd.svg" />
+                <div class="legend">
+                    <div>Modele Conceptuelle de Donnée</div>
+                </div>
+            </div>
+            <div class="diagram">
+                <img src="Part 2/mpd.png" />
+                <div class="legend">
+                    <div>Modele Physique de Donnée</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
