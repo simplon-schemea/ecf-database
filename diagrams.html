@@ -38,17 +38,17 @@
         .diagram {
             position: relative;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            padding-bottom: 30px;
-            margin: 10px 0;
+            align-items: center;
+            margin: 20px 0;
         }
 
         .diagram .legend {
-            position: absolute;
-            bottom: 0;
             width: 100%;
             display: flex;
             justify-content: center;
+            margin-bottom: 10px;
         }
         .diagram .legend div {
             background: #000a;
@@ -59,6 +59,12 @@
             padding: 5px 10px;
             font-size: 0.9em;
         }
+
+        hr {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
     </style>
 </head>
 
@@ -67,31 +73,33 @@
         <div class="part">
             <div class="title">PART 1</div>
             <div class="diagram">
-                <img src="Part 1/mcd.svg" />
                 <div class="legend">
                     <div>Modele Conceptuelle de Donnée</div>
                 </div>
+                <img src="Part 1/mcd.svg" />
             </div>
+            <hr/>
             <div class="diagram">
-                <img src="Part 1/mpd.png" />
                 <div class="legend">
                     <div>Modele Physique de Donnée</div>
                 </div>
+                <img src="Part 1/mpd.png" />
             </div>
         </div>
         <div class="part">
             <div class="title">PART 2</div>
             <div class="diagram">
-                <img src="Part 2/mcd.svg" />
                 <div class="legend">
                     <div>Modele Conceptuelle de Donnée</div>
                 </div>
+                <img src="Part 2/mcd.svg" />
             </div>
+            <hr/>
             <div class="diagram">
-                <img src="Part 2/mpd.png" />
                 <div class="legend">
                     <div>Modele Physique de Donnée</div>
                 </div>
+                <img src="Part 2/mpd.png" />
             </div>
         </div>
     </main>
